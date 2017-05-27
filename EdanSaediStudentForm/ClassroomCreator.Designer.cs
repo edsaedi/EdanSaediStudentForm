@@ -56,6 +56,7 @@
             // 
             // Edit
             // 
+            this.Edit.Enabled = false;
             this.Edit.Font = new System.Drawing.Font("Segoe Keycaps", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Edit.Location = new System.Drawing.Point(270, 210);
             this.Edit.Name = "Edit";
@@ -63,6 +64,7 @@
             this.Edit.TabIndex = 17;
             this.Edit.Text = "Edit";
             this.Edit.UseVisualStyleBackColor = true;
+            this.Edit.Click += new System.EventHandler(this.Edit_Click);
             // 
             // Delete
             // 

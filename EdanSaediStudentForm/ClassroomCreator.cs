@@ -45,6 +45,9 @@ namespace EdanSaediStudentForm
             }
 
         }
+        #region 5/26/17 TODO:
+        //Work on making the edit function in the form work. Make the button.
+        #endregion
         #region 5/24/17 TODO:
         //Make the edit button work in the new form I created and (finish the edit function in sql) ()= uncertain if finished.
         #endregion
@@ -167,6 +170,13 @@ namespace EdanSaediStudentForm
         private void classroomsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             Delete.Enabled = true;
+            Edit.Enabled = true;
+        }
+
+        private void Edit_Click(object sender, EventArgs e)
+        {
+            EditForm form = new EditForm();
+            form.ShowDialog();
         }
     }
 }
