@@ -45,6 +45,9 @@ namespace EdanSaediStudentForm
             }
 
         }
+        #region 6/7/17 TODO:
+        //Finish moving the button and make it so that the button deletes.
+        #endregion
         #region 5/26/17 TODO:
         //Work on making the edit function in the form work. Make the button.
         #endregion
